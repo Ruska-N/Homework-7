@@ -1,0 +1,38 @@
+/* Header Styles */
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 53px;
+    position: sticky;
+    
+}
+.logo {
+    margin-top: 13.5px;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+    font-size: 18px;
+    margin-top: 21.5px;
+}
+.nav-div {
+    display: flex;
+    width: 825px;
+    height: 22px;
+}
+.blue-block {
+    display: flex;
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    margin-left: 40px;
+}
+.get-cons {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: auto;
+}
