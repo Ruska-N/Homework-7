@@ -1,6 +1,10 @@
 /* Header Styles */
 .header {
     height: 118px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .header-div {
     display: flex;
@@ -9,6 +13,7 @@
     height: 65px;
     margin: 0 auto;
     padding-top: 53px;
+    background-color: #FFFFFF;
 }
 .logo {
     margin-top: 13.5px;
@@ -142,4 +147,47 @@
 .text-on-image {
     font-size: 18px;
     margin-bottom: 47px;
+}
+
+/* section 3 styles */
+.section3 {
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 131px;
+}
+.person-div {
+    display: flex;
+    justify-content: space-between;
+}
+.person-block1 {
+    position: relative;
+}
+.name-box {
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+    background-color: #FFFFFF;
+    width: 341px;
+    height: 114px;
+    text-align: center;
+}
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+.proff {
+    font-size: 18px;
+}
+.ourteam {
+    font-size: 18px;
+}
+.meet {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 41px;
 }
