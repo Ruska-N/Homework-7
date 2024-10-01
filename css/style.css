@@ -1,4 +1,7 @@
 /* Header Styles */
+.header {
+    height: 118px;
+}
 .header-div {
     display: flex;
     justify-content: space-between;
@@ -35,4 +38,46 @@
     color: #FFFFFF;
     font-size: 18px;
     margin: auto;
+}
+
+/* section 1 styles */
+.section1 {
+    width: 1220px;
+    margin: 136px auto 60px;
+    text-align: center;
+}
+.grey-div {
+    width: 1220px;
+    height: 383px;
+    display: flex;
+    justify-content: space-between;
+}
+.grey-blocks {
+    background-color: #F4F4F4;
+    width: 386px;
+}
+.work-process {
+    font-size: 18px;
+}
+.main-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 41px;
+}
+.block-titles {
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon-div {
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    border-radius: 50%;
+}
+.icon-div2 {
+    width: 72px;
+    height: 72px;
+    background-color: #6B77E5;
+    border-radius: 50%;
 }
