@@ -2,6 +2,8 @@
 .header {
     height: 118px;
     width: 100%;
+    padding-top: 53px;
+    background-color: #FFFFFF;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -12,8 +14,7 @@
     width: 1220px;
     height: 65px;
     margin: 0 auto;
-    padding-top: 53px;
-    background-color: #FFFFFF;
+    
 }
 .logo {
     margin-top: 13.5px;
